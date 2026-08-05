@@ -34,6 +34,19 @@ Para validar a versão de produção:
 npm run build
 ```
 
+## GitHub Pages
+
+A versÃ£o estÃ¡tica publicÃ¡vel Ã© gerada em `docs/`:
+
+```bash
+npm run build:pages
+```
+
+O workflow `.github/workflows/deploy-pages.yml` publica essa versÃ£o a cada
+push na branch `main`. No GitHub, configure **Settings > Pages > Source** como
+**GitHub Actions**. Todos os recursos usam caminhos relativos e funcionam em
+URLs de projeto, como `https://usuario.github.io/repositorio/`.
+
 ## Visualização publicada
 
 [Abrir o Design System](https://portuguese-jewish-news-design-system.br-rafael.chatgpt.site/editorial-design-system)
