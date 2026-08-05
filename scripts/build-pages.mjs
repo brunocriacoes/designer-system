@@ -11,12 +11,13 @@ await mkdir(output, { recursive: true });
 await cp(source, output, { recursive: true });
 
 const designSystem = await readFile(
-  path.join(source, "editorial-design-system.html"),
+  path.join(source, "editorial-design-system-static.html"),
   "utf8",
 );
 
 await Promise.all([
   writeFile(path.join(output, "index.html"), designSystem),
+  writeFile(path.join(output, "editorial-design-system.html"), designSystem),
   writeFile(path.join(output, "404.html"), designSystem),
   writeFile(path.join(output, ".nojekyll"), ""),
 ]);
