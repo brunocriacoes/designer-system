@@ -50,3 +50,4 @@ URLs de projeto, como `https://usuario.github.io/repositorio/`.
 ## Visualização publicada
 
 [Abrir o Design System](https://portuguese-jewish-news-design-system.br-rafael.chatgpt.site/editorial-design-system)
+
