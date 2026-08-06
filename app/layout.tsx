@@ -4,6 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "The Portuguese Jewish News — Design System",
   description: "Design system editorial, componentes e tokens de marca.",
+  icons: { icon: "/favicon.png" },
 };
 
 export default function RootLayout({
